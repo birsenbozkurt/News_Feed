@@ -1,0 +1,38 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 10vh;
+	width: 90%;
+	margin: auto;
+	/* buraya box-shadow: verilebilir */
+}
+
+ul {
+	display: flex;
+	width: 20%;
+	justify-content: space-between;
+	list-style: none;
+	font-weight: bold;
+}
+
+h1 {
+	letter-spacing: 3px;
+}
+
+.icon1 {
+	display: flex;
+	color: #ffef00;
+	font-size: 25px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+	justify-content: space-between;
+}
+.icon2 {
+	display: flex;
+	color: #151b54;
+	font-size: 25px;
+	margin-right: 10px;
+	margin-bottom: 4px;
+	justify-content: space-between;
+}

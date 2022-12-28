@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #d5d6ea;
+}
+
+.backimage {
+	background-image: url("./images/background.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	min-height: 90vh;
+	/* height değeri vermezsek background görüntülenmez */
+}
+.search-bar {
+	display: flex;
+	margin-left: 33%;
+	justify-content: center;
+	align-items: center;
+	width: 350px;
+	height: 45px;
+}
+.text {
+	font-size: 65px;
+	color: #d5d6ea;
+	padding: 20px;
+	text-align: center;
+}
